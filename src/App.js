@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from "./componant/Nav/Nav";
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App-totaal">
-     <h1> this is a total Ticket web site </h1>
-    </div>
-  );
+    <>
+    <Nav />
+    <h1> Hello World !</h1>
+    </>
+   ); 
 }
 
-export default App;
+export default App ; 
+
