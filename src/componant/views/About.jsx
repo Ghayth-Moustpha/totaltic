@@ -23,8 +23,8 @@ const About = () => {
                 </div>
                 <div class="w-full lg:w-8/12 lg:pt-8">
                     <div class="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
-                       <Perpic imgLink={"images/3QNRQ1ckGvMdweOp.jpg"}  personName={"Ghayth"} />
-                       <Perpic imgLink={"images/3QNRQ1ckGvMdweOp.jpg"}  personName={"Huda"} />
+                       <Perpic imgLink={"images/3QNRQ1ckGvMdweOp.jpg"}  personName={"KInda"} />
+                       <Perpic imgLink={"images/3QNRQ1ckGvMdweOp.jpg"}  personName={"Tasneem"} />
                        <Perpic imgLink={"images/3QNRQ1ckGvMdweOp.jpg"}  personName={"Huda"} />
                     </div>
                 </div>
