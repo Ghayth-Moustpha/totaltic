@@ -5,6 +5,7 @@ import About from "./componant/Pages/About";
 import Contact from "./componant/Pages/Contact"; 
 import "./App.css" ;
 import Footer from "./componant/mainparts/Footer";
+import Login from "./componant/Guest/Login";
 
 /// padding : margin :  
 const App = () => {
@@ -13,14 +14,15 @@ const App = () => {
     <> 
     <Nav /> 
     <div className="pt-10 h-screen h-auto">  
-   
     <Routes>
       <Route path="/" element= {<Home />} />  
       <Route path="Home" element= {<Home />} />  
       <Route path="about" element= {<About />} />   
       <Route path="contect" element = {<Contact />} /> 
-
+      <Route path="login" element = {<Login />} /> 
+    
     </Routes> 
+  
     <Footer /> 
     </div>
     

@@ -1,10 +1,10 @@
+import logo from "./logo.png" ; 
 
 
 const Logo = () => {
     return (
         <a href="" className="flex items-center">
-       
-        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Total Ticket</span>
+        <img src={logo} alt = "total Ticket logo" width={250} height={150} /> 
         </a>
     )
 }

@@ -1,5 +1,7 @@
 import NavItem from "./NavItem";
-import Logo from "./Logo"; 
+import Logo from "./Logo";  
+<i class = "material-symbols-outlined" > video_search </i>
+
  ///   <i class="material-symbols-outlined"> word </i>  
 const Nav = () => {
 
