@@ -1,10 +1,12 @@
-const Signup = () => {
+const Login = () => {
 
 
     return (
         <>
-      
+            <form > 
+                <input type="text" name ="username" placeholder="Enter your name" />
+            </form>
         </>
     )
 }
-export default Signup ; 
+export default Login ; 

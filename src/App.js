@@ -6,6 +6,7 @@ import Contact from "./componant/Pages/Contact";
 import "./App.css" ;
 import Footer from "./componant/mainparts/Footer";
 import Login from "./componant/Guest/Login";
+import Signup from "./componant/Guest/Login";
 
 /// padding : margin :  
 const App = () => {
@@ -19,7 +20,9 @@ const App = () => {
       <Route path="Home" element= {<Home />} />  
       <Route path="about" element= {<About />} />   
       <Route path="contect" element = {<Contact />} /> 
-      <Route path="login" element = {<Login />} /> 
+      <Route path="login" element = {<Login />} />   
+    <Route path="sginup" element = {<Signup />} /> 
+
     </Routes> 
   
     <Footer /> 
