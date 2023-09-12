@@ -6,7 +6,7 @@ import Contact from "./componant/Pages/Contact";
 import "./App.css" ;
 import Footer from "./componant/mainparts/Footer";
 import Login from "./componant/Guest/Login";
-import Signup from "./componant/Guest/Login";
+import Signup from "./componant/Guest/Signup";
 
 /// padding : margin :  
 const App = () => {
